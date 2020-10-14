@@ -11,8 +11,7 @@ class Post {
     private String title;
     private String body;
 
-    public Post(int id, User user, String title, String body) {
-        this.id = id;
+    public Post(User user, String title, String body) {
         this.user = user;
         this.title = title;
         this.body = body;

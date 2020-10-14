@@ -1,16 +1,16 @@
 package com.elsafty.roomposts;
 
 class User {
-    private int id;
+    private int userId;
     private String name;
 
-    public User(int id, String name) {
-        this.id = id;
+    public User(int userId, String name) {
+        this.userId = userId;
         this.name = name;
     }
 
-    public int getId() {
-        return id;
+    public int getUserId() {
+        return userId;
     }
 
     public String getName() {
